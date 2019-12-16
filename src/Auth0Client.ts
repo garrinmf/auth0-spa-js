@@ -289,6 +289,7 @@ export default class Auth0Client {
       audience: this.options.audience,
       client_id: this.options.client_id,
       code_verifier: transaction.code_verifier,
+      scope: transaction.scope,
       code
     });
 
