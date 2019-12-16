@@ -234,6 +234,7 @@ interface OAuthTokenOptions {
   audience?: string;
   code_verifier: string;
   code: string;
+  scope?: string;
 }
 
 /**
